@@ -510,7 +510,7 @@ p:first-letter, li:first-letter {
 }
 .double-image {
   position: absolute;
-  width: 55%;;
+  width: 55%;
   right: 0;
   border-radius: 2px
 }
@@ -546,4 +546,43 @@ p:first-letter, li:first-letter {
 .title-page-six {
   font-size: 2em;
   margin-bottom: 0.4em;
+}
+
+.page-six-image-4-girl {
+  object-fit: contain;
+  width: 27%;
+}
+
+.page-six-image-boy {
+  object-fit: contain;
+  width: 27%;
+  margin-top: 10em;
+}
+
+.page-six-image-3-girl {
+  object-fit: contain;
+  width: 27%;
+  margin-top: 20em;
+}
+
+/*************************** PAGE s3ven ****************************/
+
+.page-seven-keyboard-image {
+  object-fit: fill;
+  width: 100vw;
+  height: 50vh;
+}
+
+.bottom-section-page-seven {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-div-page-six {
+  text-align: left;
+  padding: 1%;
+}
+
+.margin-top-bottom-text {
+  margin-top: 0;
 }
