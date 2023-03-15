@@ -586,3 +586,7 @@ p:first-letter, li:first-letter {
 .margin-top-bottom-text {
   margin-top: 0;
 }
+
+.custom-text-div {
+  width: 50%;
+}
