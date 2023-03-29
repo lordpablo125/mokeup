@@ -264,7 +264,7 @@ textarea {
 /**************************** All pages classes ****************************/
 
 .page {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url(../img/1-party.jpg);
 }
@@ -337,7 +337,6 @@ p:first-letter, li:first-letter {
 
 .bottom-wrapper-page-one {
   display: flex;
-  /* justify-content: space-evenly; */
   gap: 10%;
   padding-left: 5%;
   background: linear-gradient(0deg, rgba(34,26,61,1) 0%, rgb(209, 99, 94) 77%);
@@ -385,9 +384,13 @@ p:first-letter, li:first-letter {
   font-size: 3em;
 }
 
+.second-half {
+  width: 100%;
+  height: 100%;
+}
+
 .image-page-two {
-  width: 50vw;
-  height: 80vh;
+  width: 100%;
 }
 
 /**************************** PAGE THREE ****************************/
@@ -406,6 +409,7 @@ p:first-letter, li:first-letter {
 
 .object-fit {
   object-fit: cover;
+  width: 100%;
 }
 
 .image-padding {
@@ -478,8 +482,8 @@ p:first-letter, li:first-letter {
 }
 
 .image-page-four {
-  width: 130px;
-  height: 130px;
+  width: 10em;
+  height: 10em;
   padding: 50px;
   display: inline-block;
   background-size: cover;
@@ -592,8 +596,7 @@ p:first-letter, li:first-letter {
 
 .page-seven-keyboard-image {
   object-fit: fill;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
 }
 
 .bottom-section-page-seven {
